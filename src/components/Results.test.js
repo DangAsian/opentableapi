@@ -1,8 +1,20 @@
 import React from 'react';
-import Results from './Results.react';
-import renderer from 'react-test-renderer';
+import Enzyme, { shallow } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
+import Results from './Results';
 
+//Trouble testing with Redux involved 
 
-text('fake test', ()=>{
-  expect(true).toBeTruthy()
-})
+// describe("Results component", () => {
+//   test("shows list of restaurant in toronto", async () => {
+//     const response = {
+//       location: "toronto"
+//     };
+//
+//     axios.get.mockResolvedValue(response);
+//     const component = create(<Results />);
+//     const instance = component.getInstance();
+//     await instance.componentDidMount();
+//     console.log(instance.state);
+//   });
+// });

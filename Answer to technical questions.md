@@ -1,8 +1,8 @@
 1) I spent just short of 1.5 hours writing this code. I didn't quite understand the user story "which restaurants are currently available".
    I would get more insight on this, and improve it accordingly. I would also work more on testing and CSS (WCAG 2.0 AA accessibillity).
-   Additionally, I would also fix some edge cases, and also build a function to change pages.
+   Additionally, I would also fix some edge cases, build a function to change pages, and learn how to test using Enzyme.
 
-2) redux
+2) Redux to fetch restaurants upon submit.
 
 3) Never had to do this, but interested to know the answer.
 
@@ -12,21 +12,22 @@
    I wouldn't necessarly make additionaly improvements. If I could make a change, maybe adding the opening and closing times of each restaurant.
 
 5) {
-     "name": "Daniel Ang",
-     "age": 26,
-     "previous_career": "Clinical Research",
-     "passion": "Mental Health Space",
-     "education": {[
-                    "school": "Bitmaker General Assembly",
-                    "degree": "Web Development",
-                    "end_date": "Dec 2018" <-- Could be a Date type
+     name: "Daniel Ang",
+     age: 26,
+     current_career: "Web Developer"
+     previous_career: "Clinical Research",
+     passion: "Mental Health Space",
+     education: {[
+                    school: "Bitmaker General Assembly",
+                    degree: "Web Development",
+                    end_date: "Dec 2018" <-- Could be a Date type
                   ],
                   [
-                    "school": "University of Toronto",
-                    "degree": "Chemistry",
-                    "end_date": "June 2016"
+                    school: "University of Toronto",
+                    degree: "Chemistry",
+                    end_date: "June 2016"
                   ]},
-    "martial_arts": ["Tae Kwon Do", "Muay Thai"],
-    "job_seeking": true,
-    "having_fun_writing_this": true
+    martial_arts: ["Tae Kwon Do", "Muay Thai"],
+    job_seeking: true,
+    having_fun_writing_this: true
    }
