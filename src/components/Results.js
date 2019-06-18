@@ -41,9 +41,10 @@ const Results = props => {
   const list = props.restaurants.restaurants.map(restaurant => {
     return (
       <div key={restaurant.id}>
-      <h2>name: {restaurant.name}</h2>
-      <p>address: {restaurant.address}, {restaurant.city}, {restaurant.state}</p>
-      <p>price: {restaurant.price}</p>
+      <h2>Name: {restaurant.name}</h2>
+      <p>Address: {restaurant.address}, {restaurant.city}, {restaurant.state}</p>
+      <p>Price: {restaurant.price}</p>
+      <img src={restaurant.image_url} alt={restaurant.name} />
       </div>
     )
   })
